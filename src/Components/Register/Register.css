@@ -1,0 +1,94 @@
+.RegisterNow{
+    background: #1a1818;
+    width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   /* margin-top: 5rem; */
+
+}
+.register-continer{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../../assets/register.jpg');
+ width: 100%;
+    /* height: 100%; */
+    margin-top: 10rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Register-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20rem auto ;
+    text-transform: uppercase;
+    gap: 1.2rem;
+}
+.Register-text>:nth-child(1){
+font-size: 3rem;
+color: white;
+font-weight: bold;
+}
+.Register-text>:nth-child(2){
+font-size: 1.5rem;
+color: white;
+font-weight: 200;
+letter-spacing: 3.25px;
+}
+.regbtn{
+    background: transparent;
+    border: 2px solid cadetblue;
+    padding: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-top: 1.4rem;
+    font-size: 0.8rem;
+    letter-spacing: 1.50px;
+    text-transform: uppercase;
+    
+}
+
+.regbtn:hover{
+    background-color: cadetblue;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+
+}
+
+@media screen and (max-width: 830px) {
+    .register-continer{
+/* height: 50%; */
+background-size:cover;
+background-position: center;
+
+    }
+    .Register-text{
+/* font-size: 2rem; */
+/* margin: -20rem auto ; */
+/* margin: -5rem auto; */
+margin: 10rem auto;
+text-align: start;
+gap: 1rem;
+    }
+
+    .Register-text>:nth-child(1){
+        font-size: 1rem;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 5rem;
+        }
+        .Register-text>:nth-child(2){
+        font-size: 0.7rem;
+        color: white;
+        text-align: center;
+        font-weight: 200;
+        letter-spacing: 3.25px;
+        }
+        .regbtn{
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    font-size: 0.5rem;
+        }
+        
+}
